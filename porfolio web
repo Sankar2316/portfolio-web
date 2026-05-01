@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal Portfolio</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    background: #1e293b;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #38bdf8;
+}
+
+section {
+    padding: 40px;
+    border-bottom: 1px solid #334155;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Vishal M</h1>
+    <p>ECE Student | Aspiring Software Developer</p>
+</header>
+
+<div class="container">
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a motivated Electronics and Communication Engineering student with a strong interest in IT and software development. 
+        I enjoy solving problems, working in teams, and building real-world solutions.
+    </p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="card">
+        <p>C, C++, Java, Python</p>
+        <p>HTML, CSS, JavaScript</p>
+        <p>Problem Solving, Teamwork, Leadership</p>
+    </div>
+</section>
+
+<section>
+    <h2>Internships</h2>
+
+    <div class="card">
+        <h3>Web Development</h3>
+        <p>Worked with HTML, CSS, and JavaScript to build responsive web pages.</p>
+    </div>
+
+    <div class="card">
+        <h3>NTPL - Tuticorin</h3>
+        <p>Learned thermal power plant operations, including boiler, turbine, and safety systems.</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>IoT Smart Shopping System</h3>
+        <p>RFID + NodeMCU based smart cart to automate billing process.</p>
+    </div>
+
+    <div class="card">
+        <h3>Intelligent Irrigation System</h3>
+        <p>Optimized water distribution using matrix-based system design.</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="card">
+        <p><strong>B.E ECE</strong> - SNS College of Engineering</p>
+        <p>HSC - 85%</p>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: vishal.m.ece.2023@snsce.ac.in</p>
+        <p>Phone: 9345553733</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vishal-m-" target="_blank">Profile Link</a></p>
+    </div>
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 Vishal M</p>
+</footer>
+
+</body>
+</html>
